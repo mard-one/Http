@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SimpleHttpComponent } from './simple-http.component';
+import { YouTubeSearchComponent } from './you-tube-search.component';
 
-describe('SimpleHttpComponent', () => {
-  let component: SimpleHttpComponent;
-  let fixture: ComponentFixture<SimpleHttpComponent>;
+describe('YouTubeSearchComponent', () => {
+  let component: YouTubeSearchComponent;
+  let fixture: ComponentFixture<YouTubeSearchComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SimpleHttpComponent ]
+      declarations: [ YouTubeSearchComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SimpleHttpComponent);
+    fixture = TestBed.createComponent(YouTubeSearchComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
