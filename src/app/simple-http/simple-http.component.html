@@ -1,0 +1,13 @@
+<div class='wrapper'>
+  <h1 class='header'>Basic Request</h1>
+  <button type="button" (click)="makeRequest()">Make Request</button>
+  <div *ngIf="loading">loading...</div>
+  <div *ngIf='data' class='data'>
+    <h1>{{data.title}}</h1>
+    <p>{{data.body}}</p>
+  </div>
+  <div *ngIf="error" class='error'>
+    <h1>{{error.status}}</h1>
+    <p>{{error.statusText}}</p>
+  </div>
+</div>
